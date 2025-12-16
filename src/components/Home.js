@@ -237,9 +237,9 @@ function Home() {
               <ul>
                 <li><a href="#contact">Contact us</a></li>
                 <li><a href="mailto:vulpsfashion@gmail.com">vulpsfashion@gmail.com</a></li>
-                <li>+91 9591388806</li>
-                <li>+91 7756915814</li>
-                <li>+91 9767290677</li>
+                <li>+91 </li>
+                <li>+91 </li>
+                <li>+91 </li>
               </ul>
             </div>
             <div className="footer-section">
