@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // 1. Added Link for navigation
 import '../App.css';
+// Removed: import './About.jsx'; (Not needed here)
 
 function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -224,8 +226,10 @@ function Home() {
             <div className="footer-section">
               <h4>Menu</h4>
               <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About us</a></li>
+                {/* 2. Updated Links to use React Router */}
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About us</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
                 <li><a href="#shop">Shop Now</a></li>
                 <li><a href="#terms">Terms & Conditions</a></li>
                 <li><a href="#forum">Forum</a></li>
@@ -264,4 +268,3 @@ function Home() {
 }
 
 export default Home;
-

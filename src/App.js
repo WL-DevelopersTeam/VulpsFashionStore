@@ -6,6 +6,9 @@ import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
+// Import the new components
+import About from './components/About';
+import Blog from './components/Blog'; 
 import './App.css';
 
 function App() {
@@ -19,6 +22,10 @@ function App() {
           <Route path="/wishlist" element={<Wishlist />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
+          
+          {/* Added new routes */}
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </div>
     </Router>
