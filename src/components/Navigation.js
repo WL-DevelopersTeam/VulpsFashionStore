@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { CartIcon, WishlistIcon } from './Icons';
 import '../App.css';
-
+// import './About.jsx';
+// import './Blog.jsx';
 function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
@@ -28,8 +29,8 @@ function Navigation() {
         <ul className="nav-menu">
           <li><Link to="/#home">Home</Link></li>
           <li><Link to="/#shop">Shop</Link></li>
-          <li><Link to="/#about">About Us</Link></li>
-          <li><Link to="/#blog">Blog</Link></li>
+          <li><Link to="/About">About Us</Link></li>
+          <li><Link to="/Blog">Blog</Link></li>
           <li><Link to="/#stories">Success Stories</Link></li>
         </ul>
         <div className="nav-icons">
