@@ -228,8 +228,8 @@ function Home() {
               <ul>
                 {/* 2. Updated Links to use React Router */}
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About us</Link></li>
-                <li><Link to="/blog">Blog</Link></li>
+                <li><a href="/About">About us</a></li>
+               <li><a href="/Blog">Blog</a></li>
                 <li><a href="#shop">Shop Now</a></li>
                 <li><a href="#terms">Terms & Conditions</a></li>
                 <li><a href="#forum">Forum</a></li>
