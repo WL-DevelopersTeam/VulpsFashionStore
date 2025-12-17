@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // 1. Added Link for navigation
 import '../App.css';
+import { FaInstagram, FaFacebookF, FaWhatsapp } from 'react-icons/fa';
 // Removed: import './About.jsx'; (Not needed here)
 
 function Home() {
@@ -249,10 +250,9 @@ function Home() {
             <div className="footer-section">
               <h4>Connect with us</h4>
               <div className="social-links">
-                <a href="#" className="social-icon">📘</a>
-                <a href="#" className="social-icon">📷</a>
-                <a href="#" className="social-icon">🐦</a>
-                <a href="#" className="social-icon">📺</a>
+                <a href="#" className="social-icon"> <FaInstagram size={30} style={{ color: '#E1306C' }} /></a>
+                <a href="#" className="social-icon"><FaFacebookF size={30} style={{ color: '#1877F2' }} /></a>
+                <a href="#" className="social-icon"><FaWhatsapp size={30} style={{ color: '#25D366' }} /></a>
               </div>
               <h4 className="follow-title">Follow us</h4>
             </div>
